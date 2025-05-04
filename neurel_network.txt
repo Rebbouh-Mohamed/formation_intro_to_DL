@@ -1,0 +1,40 @@
+Neurel network :
+
+first of let's we define a function a function it's just system of input and output so we know the 
+function we can always plot it in graph after we calculate the output from the an input, 
+let's supuse we have some inputs and his output and we don't know the function to prduce them ,
+is ther  a way to revers enginerint that function prduced this data(inputs and outpus )??
+so the answer is yes but we need is function approximation and that what the neurel newtwok is !!
+neurel network it's compined of layer(input,hidden,output)where eache of them combined of  neuroun 
+nueroun its just function where can take any number of input and
+has one output eache input is multiplied by a weight and all added togother along with bais the weight
+ and bais make the parameter of the neuroun values that can change as the network learns 
+
+so how it the neuron exactly  works ??
+
+the neuron working as building blocks is actually an extreamly lineare function with 2 parameter (bais and wight)we can scratch squeez and move our function up down left and right as such we should be able to combined with the othere neuron to make more complecated function built from lots of lineare function 
+
+the lineare function can only combined to make one lineare function and this is very big problem becouse we want acuatally we need something  more comblicated than just  a lineare function so we need somthing non lineare and that's why we have the activation function (so it's just like methode we used for apply non-linearerty to neuron) the most common ones(relu functoin )
+
+we know from the prevuse thing when the network learns they feed forward the data from the input layer to hidden layer and then the output layer and they  change the value of the bais and the weight  but how we can tweak it automaticly  ??
+the most common algorithm who do that called back propagation ,after the feed forward happen and the we goona get the output ereur computed with somthing callsed loss function we goona talking about it later,so the eruer is disrtubited back to the network providing each network measurs of its contribution to total eruer using this measurs back propagation  adjust the weights and the baises of the network to minimize that eruer where the objective of this is to improve the accuracy of the network's output durnig the feed forward  in conclustion it's just a procces of optomization often employing a techique knows as gradeint distance  
+
+gradeint distance it's optimization technique used for minimize the loss function of the neurel network 
+
+now let's we back to the loss function 
+
+what is a loss function it's mathimathical function that calculate the ereur betwen the predicted value prduced outuput that comes from the neurel network and the acutal target guven in input and that's what gonna try optimize (minimize) 
+
+conclution 
+
+can the neurel network learn any thing ?? 
+the neurel network can be proven universel function approximator so we can approximate any function to  any degree of precition you could ever want and this the whole thing about deep learning becouse that means nn can aproximate any function  system of input and output ,and this extremly general way of thinkig about the world so we can say nn can learn any thing (not all the time )or can do any task any prossec if we can represent it sa function and the inputs as a numbers 
+
+so the answer of our question it's not all the time becouse always we have limitation of the number of neuron  even the limitation of the data becouse not always we have enouf data 
+
+in the end neurel network improve themselves for difficult problems for the computer usally this problem require certain level of entuition and fuzzy logic where it's very hard to write programs to solve 
+
+the nn and by simple computation  can get the computers  solve hard tasks 
+
+THE EEEENNNNNDDDDD     	
+
