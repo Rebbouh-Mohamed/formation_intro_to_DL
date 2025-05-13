@@ -1,6 +1,6 @@
 # 🧠 Building a Simple Neural Network in PyTorch  
 
-## 🔹 Step 1: Creating a Neural Network (Without Activation Function)  
+## 🔹 Step 1: Creating a Neural Network (Without Activation Functions)  
 
 Let's start with a **simple neural network** that takes an input, applies weights and bias, and gives an output. **No activation function yet!**  
 
